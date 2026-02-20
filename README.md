@@ -1,6 +1,6 @@
 # CPU from Complete Scratch
 I have always been dreaming of building a CPU from scratch, which means only transistors, resistors, and capacitors are allowed!!!
-The main goal of this is to build my first ever 1-bit adder that features SUM and Carry
+The main goal of this is to build my first ever [1-bit adder](https://www.youtube.com/watch?v=RsBQoqHN4rk) that features SUM and Carry
 
 ![Adder](assets/1_bit_adder.png)
 
