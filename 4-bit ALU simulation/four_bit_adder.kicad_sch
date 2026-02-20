@@ -1,0 +1,5801 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ebf5bfe-01ca-4b7d-8588-7646b305d3b9")
+	(paper "User" 431.8 279.4)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 166.37 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0446f16d-2bc1-4d95-969f-0ebd44c16685")
+	)
+	(junction
+		(at 166.37 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13cba84a-2d25-4d8d-af8e-2ee8aa78cc6f")
+	)
+	(junction
+		(at 166.37 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1527c8dc-3965-4b2e-89ba-3408098291a1")
+	)
+	(junction
+		(at 196.85 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f6139e-da8d-40c7-b774-ce2bb1045b30")
+	)
+	(junction
+		(at 196.85 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7bcafd-7e7e-463d-868e-94893427f8d0")
+	)
+	(junction
+		(at 168.91 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21a57d95-c466-46e3-8fca-fcfd1eff9ec2")
+	)
+	(junction
+		(at 168.91 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "372d9d73-b103-4d80-8006-753ca99fe60b")
+	)
+	(junction
+		(at 168.91 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50721f7c-fa67-4fdb-8be8-5016a0f7c90e")
+	)
+	(junction
+		(at 193.04 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6737157f-560b-415b-9592-53e2b1b8a73b")
+	)
+	(junction
+		(at 168.91 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7632ad33-8974-4043-8238-efa844e208a2")
+	)
+	(junction
+		(at 196.85 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e44eb2-32fb-430d-a2ac-8bda8c545e8a")
+	)
+	(junction
+		(at 193.04 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd35e50-c5a8-4e4e-af0e-d47415835dd7")
+	)
+	(junction
+		(at 193.04 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9426a14-6367-4a40-bb5a-c3647fbd6c6c")
+	)
+	(junction
+		(at 196.85 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caab0b59-63c3-469b-8151-a4f8bfa7bbcc")
+	)
+	(junction
+		(at 193.04 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbaf9b36-cfc1-4349-827a-a4540862b6c7")
+	)
+	(junction
+		(at 166.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0b7918-4e4b-44a3-8dd9-4b4663a45942")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cbc74a-a320-4036-9a95-75a9370fe8ad")
+	)
+	(wire
+		(pts
+			(xy 193.04 217.17) (xy 196.85 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0625b1df-a970-48db-9b6a-f14c3e7499dc")
+	)
+	(wire
+		(pts
+			(xy 177.8 203.2) (xy 179.07 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06459b2a-aef3-48b5-a953-d32e1792ce80")
+	)
+	(wire
+		(pts
+			(xy 193.04 95.25) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a770d10-1890-4037-ac9d-29e22b0fe476")
+	)
+	(wire
+		(pts
+			(xy 237.49 72.39) (xy 237.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6ffa04-ac2f-4c5c-a718-769b2c35a2a8")
+	)
+	(wire
+		(pts
+			(xy 208.702 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5789ff-b969-4faf-b5e6-d7c7864e7019")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7f7ee5-34a9-4aff-83f0-8f8cc2f737f2")
+	)
+	(wire
+		(pts
+			(xy 222.25 69.85) (xy 219.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11019b26-b0c9-4d02-9bc4-7ff5933802af")
+	)
+	(wire
+		(pts
+			(xy 219.71 168.91) (xy 222.25 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1265e7b3-7490-40e0-8f87-a4ac0c30de4a")
+	)
+	(wire
+		(pts
+			(xy 161.29 134.62) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a70ce6-9c41-426f-b0a3-df6968205dc1")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f6f4c6-32ef-4054-baf5-743236674a2f")
+	)
+	(wire
+		(pts
+			(xy 204.47 168.91) (xy 207.01 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192beb32-1eb6-4061-a75e-213a2d38f6bc")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 168.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6147c7-9bc4-4d9f-a912-1d93a065ca58")
+	)
+	(wire
+		(pts
+			(xy 204.47 74.93) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c76897a-80f2-4cdf-b5f3-c08ab1f85969")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cba46aa-3da9-47de-bc00-4094195825d8")
+	)
+	(wire
+		(pts
+			(xy 201.082 190.5) (xy 193.04 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0c1b1b-8131-415b-8451-776eaa0775ed")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd91667-c731-4542-93e6-831280d5f52a")
+	)
+	(wire
+		(pts
+			(xy 193.04 48.26) (xy 193.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20dcde16-f4c6-4f58-a21d-fdac557901a0")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 168.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23555547-fc96-4bf1-ada4-f9fa68350beb")
+	)
+	(wire
+		(pts
+			(xy 196.85 43.18) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252954d3-73d7-42fa-b356-88d665b92964")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2d7503-1913-4d9d-8064-f90322e223a6")
+	)
+	(wire
+		(pts
+			(xy 161.29 154.94) (xy 168.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30eb5286-9b3e-4da9-a32a-1c2848a14a4d")
+	)
+	(wire
+		(pts
+			(xy 237.49 63.5) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315a8d5a-b4ff-4362-bb24-4330400c6b47")
+	)
+	(wire
+		(pts
+			(xy 161.29 203.2) (xy 168.91 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326218fb-9f26-41b2-a0b2-d1df72586db2")
+	)
+	(wire
+		(pts
+			(xy 207.01 69.85) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33395492-0d75-4c66-9989-ad9adbac265c")
+	)
+	(wire
+		(pts
+			(xy 237.49 157.48) (xy 240.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dc3b2b-fd66-411e-803d-48e3c0612ef3")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349ee188-2b1b-4fe1-857d-046f60b0b526")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ef6340-c7d7-4489-8efa-0a0229d7e0e6")
+	)
+	(wire
+		(pts
+			(xy 193.04 190.5) (xy 193.04 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393de691-74b5-4bc9-9731-ffbf32f3777c")
+	)
+	(wire
+		(pts
+			(xy 191.77 200.66) (xy 240.03 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c028d7-5e5e-4b2b-ba15-94b0440ba5d7")
+	)
+	(wire
+		(pts
+			(xy 207.01 116.84) (xy 196.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e04b4ec-18fb-48a8-a5dd-912431535884")
+	)
+	(wire
+		(pts
+			(xy 219.71 74.93) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41343c58-58b9-4c37-a11d-8bb2825d322d")
+	)
+	(wire
+		(pts
+			(xy 234.95 166.37) (xy 237.49 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413e2013-6cd1-41b6-8550-4e627347df3a")
+	)
+	(wire
+		(pts
+			(xy 222.25 163.83) (xy 219.71 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42565b30-8b2f-409d-8691-22a5820bb5fe")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4388a901-ebfa-4bb4-8d76-3861d306f101")
+	)
+	(wire
+		(pts
+			(xy 237.49 110.49) (xy 240.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44214468-5d05-4993-95a3-692c6be31f2e")
+	)
+	(wire
+		(pts
+			(xy 237.49 214.63) (xy 237.49 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4448cbb5-968a-40eb-8b81-781d22fb8954")
+	)
+	(wire
+		(pts
+			(xy 168.91 187.96) (xy 170.18 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48213ae0-6925-4c3e-89bc-6ae5be2a8dd6")
+	)
+	(wire
+		(pts
+			(xy 168.91 154.94) (xy 170.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4979d17d-85ef-41de-b966-fb589ed5d3db")
+	)
+	(wire
+		(pts
+			(xy 252.73 60.96) (xy 265.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d25814-0a9d-4c86-95f5-a4f8fcb636b6")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 213.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1e67ea-736a-4af8-8349-8d95330b0653")
+	)
+	(wire
+		(pts
+			(xy 177.8 107.95) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c670dd2-1f2b-4afb-891f-fee921865609")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 229.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f925763-784a-462d-80a0-18addff980fb")
+	)
+	(wire
+		(pts
+			(xy 208.702 190.5) (xy 213.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d7c377-2dd1-4cea-a5bb-d51f80b53f88")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ed7ef8-b3cb-4e42-bf9a-390dabdf7bd0")
+	)
+	(wire
+		(pts
+			(xy 152.4 217.17) (xy 193.04 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb8b3db-b123-4a92-9458-3b7cce4cffba")
+	)
+	(wire
+		(pts
+			(xy 252.73 154.94) (xy 265.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602d432a-41db-4dcd-87c2-c3e9f3fe2233")
+	)
+	(wire
+		(pts
+			(xy 226.06 90.17) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6340e91b-eb2b-4b03-bc5e-39c4e64cc12d")
+	)
+	(wire
+		(pts
+			(xy 222.25 212.09) (xy 219.71 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6697c60c-3a1e-468c-8766-ded88940371b")
+	)
+	(wire
+		(pts
+			(xy 201.082 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677c0e9b-2778-42f3-a10f-803a07cc82ce")
+	)
+	(wire
+		(pts
+			(xy 234.95 72.39) (xy 237.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d5f756-baff-4e87-8037-435bb1cc06a0")
+	)
+	(wire
+		(pts
+			(xy 237.49 205.74) (xy 240.03 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6accc2d9-25f2-4278-846d-514ab7d91579")
+	)
+	(wire
+		(pts
+			(xy 208.702 48.26) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea382c9-6b5b-438e-8164-7420f082d819")
+	)
+	(wire
+		(pts
+			(xy 265.43 107.95) (xy 265.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7098df9b-444a-4aa7-808a-28bd2f93c98f")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 179.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724594fa-5efe-41c1-8644-868611d21924")
+	)
+	(wire
+		(pts
+			(xy 204.47 217.17) (xy 207.01 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74556c65-01d8-47b9-9c5f-535928e69312")
+	)
+	(wire
+		(pts
+			(xy 237.49 119.38) (xy 237.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766b938c-f4dd-4d4a-897d-e7fd50602cff")
+	)
+	(wire
+		(pts
+			(xy 191.77 58.42) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78aed7ea-ea79-4e47-85e3-d3572eb53ee4")
+	)
+	(wire
+		(pts
+			(xy 191.77 105.41) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae2019f-7b5e-49cc-8207-18d2e3e0afec")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c576d98-ce37-4c14-b627-d6e3c6236257")
+	)
+	(wire
+		(pts
+			(xy 242.57 46.99) (xy 251.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db6da68-8bf2-4151-891a-3373c13a69c0")
+	)
+	(wire
+		(pts
+			(xy 196.85 185.42) (xy 213.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfa3d7b-fa56-4c85-86ff-1a4196efae09")
+	)
+	(wire
+		(pts
+			(xy 166.37 182.88) (xy 166.37 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0e33f3-b33f-4b07-99b4-771fe3f2222b")
+	)
+	(wire
+		(pts
+			(xy 193.04 121.92) (xy 196.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813a310e-ecb1-4cb5-98eb-4bc96e2a9bfb")
+	)
+	(wire
+		(pts
+			(xy 168.91 187.96) (xy 168.91 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813f7ef3-7891-4c2b-abcf-150643617406")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d48317-032e-4efc-86f1-c132b2671e52")
+	)
+	(wire
+		(pts
+			(xy 237.49 166.37) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8298c61d-0ccd-4127-9d03-5aeae46426d0")
+	)
+	(wire
+		(pts
+			(xy 207.01 212.09) (xy 196.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83992fba-aac0-42f4-bced-2c88a6119e5a")
+	)
+	(wire
+		(pts
+			(xy 177.8 198.12) (xy 179.07 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8492c00f-d5a6-46c0-add2-fb80f86b36b6")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d79a34-ff6d-4606-bf2f-af5531ab7930")
+	)
+	(wire
+		(pts
+			(xy 191.77 43.18) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877e9ac3-1264-41b8-bea3-2bab07908b4f")
+	)
+	(wire
+		(pts
+			(xy 152.4 176.53) (xy 152.4 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891759a4-de7a-4202-b3d7-9f9efc2e3d91")
+	)
+	(wire
+		(pts
+			(xy 177.8 149.86) (xy 179.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf6786f-3f4a-4015-b114-2f000ed17e35")
+	)
+	(wire
+		(pts
+			(xy 193.04 142.24) (xy 193.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3e07d4-10ac-402a-8f75-8260544c55a3")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 170.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f36361e-4954-4f50-a13b-9318aa3779fd")
+	)
+	(wire
+		(pts
+			(xy 252.73 203.2) (xy 262.89 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5346b4-ac24-4e05-86a1-a36363eb70b6")
+	)
+	(wire
+		(pts
+			(xy 177.8 154.94) (xy 179.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a09de0-14e2-4077-aab1-ab9e7a1cae17")
+	)
+	(wire
+		(pts
+			(xy 234.95 214.63) (xy 237.49 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959c2893-09cd-4322-b9f9-3cbeab5592c4")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aec6314-8d52-4e82-a214-a1044d0fe274")
+	)
+	(wire
+		(pts
+			(xy 226.06 190.5) (xy 229.87 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c799f13-abd5-484d-921a-329bd34d59e2")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca036ef-ca1c-47c9-a4d3-3427264f2f4d")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 193.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0a599d-e2ef-45f4-9ee9-c0a3f12115b6")
+	)
+	(wire
+		(pts
+			(xy 234.95 119.38) (xy 237.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7e49e1-9f64-4d26-a779-ab20cdc7284e")
+	)
+	(wire
+		(pts
+			(xy 204.47 121.92) (xy 207.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2eee2d-717b-491c-8259-f1280acc5c79")
+	)
+	(wire
+		(pts
+			(xy 166.37 182.88) (xy 170.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff0886b-86bd-4555-ac41-4a15b21c3fcb")
+	)
+	(wire
+		(pts
+			(xy 265.43 176.53) (xy 152.4 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20ed204-a022-46aa-9434-b250a56278e4")
+	)
+	(wire
+		(pts
+			(xy 168.91 203.2) (xy 170.18 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41003a0-7b1b-41a7-9ba5-6d61d71554d8")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41fc413-bf91-449f-ac69-3361bd91737b")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a450e40f-c070-4c11-a840-d9d1cfd7c8f8")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b31036-cd47-4a80-b5bc-5d8fe6d9e9b1")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d5b9ce-f2a4-41ad-80df-304a4b91ed03")
+	)
+	(wire
+		(pts
+			(xy 161.29 40.64) (xy 166.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a631aff6-3010-4223-832e-d880591e9417")
+	)
+	(wire
+		(pts
+			(xy 177.8 182.88) (xy 179.07 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cddc88-fc07-4e89-ada6-4f6aca7d0834")
+	)
+	(wire
+		(pts
+			(xy 252.73 107.95) (xy 265.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86fd8b7-d961-4d9a-a52f-5c4ad9e4d036")
+	)
+	(wire
+		(pts
+			(xy 242.57 189.23) (xy 251.46 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8703fcb-df86-4379-83b0-954ee2f8113f")
+	)
+	(wire
+		(pts
+			(xy 193.04 168.91) (xy 196.85 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9832d5-e126-4e67-b59f-7a329a48876f")
+	)
+	(wire
+		(pts
+			(xy 166.37 198.12) (xy 170.18 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab036404-b195-4ce0-9aa2-ce13bec0dc87")
+	)
+	(wire
+		(pts
+			(xy 201.082 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac11983b-f19b-4c61-862b-0441204a15ad")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 229.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16fa4a7-3077-4f1b-9d3e-c8eedfa7fae1")
+	)
+	(wire
+		(pts
+			(xy 177.8 139.7) (xy 179.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b285ab63-f92c-4cc9-b0c3-d32a270902e7")
+	)
+	(wire
+		(pts
+			(xy 191.77 185.42) (xy 196.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73d9aff-5051-411d-b1a3-eda2ac531ee9")
+	)
+	(wire
+		(pts
+			(xy 265.43 154.94) (xy 265.43 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8722220-c823-4634-b631-13e23975e9f3")
+	)
+	(wire
+		(pts
+			(xy 242.57 140.97) (xy 251.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b917d323-5110-4379-8119-d0e26e6f0b7c")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 170.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9350d1e-e6d0-419d-b256-4c3ea483d195")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 196.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97fb635-a891-4915-9b5b-64933d7ca05b")
+	)
+	(wire
+		(pts
+			(xy 242.57 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdff3d86-ebc4-4c84-8e27-4a3ddd5af830")
+	)
+	(wire
+		(pts
+			(xy 161.29 182.88) (xy 166.37 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3fd68e-8eb8-4512-a536-dd0c22610f99")
+	)
+	(wire
+		(pts
+			(xy 222.25 116.84) (xy 219.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17632c1-2bce-47fa-b2cc-79a950afe21e")
+	)
+	(wire
+		(pts
+			(xy 177.8 187.96) (xy 179.07 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3561a7c-2e31-4ed3-b5d6-8be549ee2057")
+	)
+	(wire
+		(pts
+			(xy 219.71 217.17) (xy 222.25 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5178343-0a9c-43dc-9016-237b0cfd2915")
+	)
+	(wire
+		(pts
+			(xy 201.082 48.26) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67f076e-827b-4ced-a0e2-2852f05d0e88")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe1f978-80d6-4e97-9cf0-5e4140b5f365")
+	)
+	(wire
+		(pts
+			(xy 226.06 95.25) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19bafa6-11c2-4ca7-b049-9d56c8ff5ef0")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 152.4 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4020a61-1586-4b8b-9d3b-b8dfa89c5e35")
+	)
+	(wire
+		(pts
+			(xy 191.77 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7de0686-4ec4-483c-a009-5502b18bf03c")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f26f2e-5a5a-4c9f-9213-418fcea50cd3")
+	)
+	(wire
+		(pts
+			(xy 208.702 95.25) (xy 213.36 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b4b074-496c-49b8-8c2c-ffc067ab1cb4")
+	)
+	(wire
+		(pts
+			(xy 265.43 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6123b0-4252-43c7-a731-82512c4503a4")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 229.87 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e020872e-47c2-4726-9d7e-3faa2016dae0")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 166.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12707f9-b09f-4f96-b95b-3ed1cf8f021f")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 166.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1704bb5-6756-4562-b2ac-f16260cbaf83")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 168.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23a95f5-2223-4e01-bdbd-a869a9648245")
+	)
+	(wire
+		(pts
+			(xy 152.4 168.91) (xy 193.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6024421-115f-49c3-a66f-9a541e69f212")
+	)
+	(wire
+		(pts
+			(xy 265.43 129.54) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8836b45-ca16-4ddb-a631-c7c994ae1e86")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f3e7cd-653d-4c96-8de7-5f94a8c7f7bc")
+	)
+	(wire
+		(pts
+			(xy 219.71 121.92) (xy 222.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93dc99d-1049-424a-b629-4f92cbe7b890")
+	)
+	(wire
+		(pts
+			(xy 265.43 60.96) (xy 265.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9b7874-8488-4ec5-b879-b5475cb28176")
+	)
+	(wire
+		(pts
+			(xy 196.85 185.42) (xy 196.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecffb1e6-21b4-417c-b11d-2badce978dab")
+	)
+	(wire
+		(pts
+			(xy 196.85 43.18) (xy 213.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee872f3-bfce-4fa4-a4f1-e91c5da8e0cd")
+	)
+	(wire
+		(pts
+			(xy 207.01 163.83) (xy 196.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11f9d40-0052-4141-a605-3431c7b8ecaa")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58c9d61-a308-4bc5-836d-b029810257a2")
+	)
+	(wire
+		(pts
+			(xy 191.77 152.4) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6471bd1-57d1-4756-ab47-276615e89a01")
+	)
+	(wire
+		(pts
+			(xy 166.37 149.86) (xy 170.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f652cd4f-4141-4d43-b803-f60b4c13bdae")
+	)
+	(wire
+		(pts
+			(xy 196.85 137.16) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d5dd47-aa18-4059-8b90-76907e105ffe")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 196.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9300e50-f3dd-4dbe-abc7-85a8e2d8ee03")
+	)
+	(wire
+		(pts
+			(xy 226.06 185.42) (xy 229.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a1fc78-73a9-4022-b429-4df1f5b65fca")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 170.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8060d8-9809-44bd-b7ff-1702272a786a")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 161.29 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ef8240c-b7e2-4968-a8c4-0fa5f949e448")
+	)
+	(hierarchical_label "S2"
+		(shape input)
+		(at 251.46 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1143d289-08f3-4a65-a8fb-9c7be71c19a9")
+	)
+	(hierarchical_label "B0"
+		(shape input)
+		(at 161.29 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b8fe841-ebe6-43e5-9e46-3ea217c26a18")
+	)
+	(hierarchical_label "A3"
+		(shape input)
+		(at 161.29 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3113b089-85f8-4085-85c9-3f4003ce94ad")
+	)
+	(hierarchical_label "B2"
+		(shape input)
+		(at 161.29 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "628a8e60-2444-4d52-be4e-88d0f8a95855")
+	)
+	(hierarchical_label "S3"
+		(shape input)
+		(at 251.46 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69ca2f50-78b4-430b-ad04-edf34a477907")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 161.29 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fd49fc9-b6dd-40ea-a124-8a14132ac6b7")
+	)
+	(hierarchical_label "Cin"
+		(shape input)
+		(at 161.29 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "704899f2-b358-4972-8fad-3c1543868873")
+	)
+	(hierarchical_label "B1"
+		(shape input)
+		(at 161.29 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5f35b45-a5f9-45b6-8f51-2ecea75ec817")
+	)
+	(hierarchical_label "S1"
+		(shape input)
+		(at 251.46 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be918625-eb40-4183-b91b-dea42d22e9bd")
+	)
+	(hierarchical_label "Cout"
+		(shape input)
+		(at 262.89 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c397eefa-6576-4dba-8e94-b657be5eeccd")
+	)
+	(hierarchical_label "B3"
+		(shape input)
+		(at 161.29 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7c1f1f3-8551-42b3-8487-e2507e94ad4b")
+	)
+	(hierarchical_label "S0"
+		(shape input)
+		(at 251.46 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0e1eb40-f9e3-43c2-a6b7-d99954417a0f")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 161.29 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e61f4ae5-07fd-463d-8275-2d5a5ca5e14e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2eaa7339-26bf-488f-b281-7f3c2c8adbaa")
+		(property "Reference" "R19"
+			(at 173.99 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ee5ed4-2db4-4966-92fb-bb2616b8dfe0")
+		)
+		(pin "2"
+			(uuid "0acde8cd-884a-4c61-bedd-3abc804645c1")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3abb117a-5d6d-40d5-9a2a-f629d84b467d")
+		(property "Reference" "R4"
+			(at 173.99 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02152f98-4ec8-4f0f-999a-c91216c39bb6")
+		)
+		(pin "2"
+			(uuid "64bee9db-1a23-4f49-9291-39d95e705984")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ac291fb-6f2f-4e7b-abcb-c90b7855f0bf")
+		(property "Reference" "R16"
+			(at 173.99 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1293155-68c7-41ec-9fda-e0ca4e274f87")
+		)
+		(pin "2"
+			(uuid "0d871d0e-890e-4cf2-b8e0-192684acc1b4")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.892 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf2fa88-f4dc-4997-85be-fb756188cc42")
+		(property "Reference" "R9"
+			(at 204.892 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 204.892 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 204.892 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.892 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.892 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2444bd8-3c94-4811-a56b-dbfb4c55094a")
+		)
+		(pin "2"
+			(uuid "73feb9ec-f927-4665-bc8a-6cb23955cfb3")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40cd84da-457c-4780-a130-92be7f1f50aa")
+		(property "Reference" "R23"
+			(at 173.99 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 207.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f8a04b-d04d-4c87-a3a5-7823dd9d1bf5")
+		)
+		(pin "2"
+			(uuid "113419b7-6ce6-4679-9472-65a059acc501")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.892 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b162a6-dbac-4c50-9977-1d2e2b84724d")
+		(property "Reference" "R15"
+			(at 204.892 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 204.892 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 204.892 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.892 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.892 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8914266-d024-41b5-96e6-2a209a569be0")
+		)
+		(pin "2"
+			(uuid "8a45c631-a9c4-4d33-8608-c345c091fa5d")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 217.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47955954-7b9b-4ebe-93ea-1e73730f256d")
+		(property "Reference" "R24"
+			(at 200.66 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 200.66 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 200.66 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f937dce2-4f17-4dce-98bb-3b70108de0d5")
+		)
+		(pin "2"
+			(uuid "9caea3ec-ec47-49e4-917c-8ffb92e89097")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c56efac-5fab-4288-9bd6-11b56e1b518b")
+		(property "Reference" "R14"
+			(at 173.99 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adc61956-7374-4f01-add3-721ce29e56bc")
+		)
+		(pin "2"
+			(uuid "cb03106a-01cc-4832-947a-497bbb53361c")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e363eb8-59c2-49c9-a9d5-d271b24c859e")
+		(property "Reference" "R6"
+			(at 200.66 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 200.66 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 200.66 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8462d864-7109-430b-9e3f-d26c5a5b4cdd")
+		)
+		(pin "2"
+			(uuid "014e22c3-c523-4b05-aa3a-1da73a9e88f8")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51547950-2708-4a9a-869e-72671704af32")
+		(property "Reference" "R2"
+			(at 173.99 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ad67f2-1927-47f8-9a23-3e3b81037b37")
+		)
+		(pin "2"
+			(uuid "bb82ce2e-de5f-43af-810e-1234b5462327")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53353178-b4eb-4544-a0ec-8db4091a3f73")
+		(property "Reference" "R11"
+			(at 173.99 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33366e7e-3f8d-45d9-af6b-e70a8852e519")
+		)
+		(pin "2"
+			(uuid "3442219c-4879-460d-af7f-8135e2d1a0f6")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ea0f02d-bcca-4681-9efe-98e7aa2080c0")
+		(property "Reference" "R8"
+			(at 173.99 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c982c76-6985-4371-abc5-7ef002628758")
+		)
+		(pin "2"
+			(uuid "4439530b-aa36-4f62-ad2d-cfef7ed10967")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69759483-c16d-4109-bd88-1fb7c9d89ce7")
+		(property "Reference" "R18"
+			(at 200.66 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 200.66 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 200.66 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d795113-d164-4e2b-8d51-4dc3256b0c49")
+		)
+		(pin "2"
+			(uuid "08ef4963-e1a8-4d64-babd-9dd21b250345")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c6aed09-d976-4907-abec-c31a6aedf68d")
+		(property "Reference" "R20"
+			(at 173.99 190.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 189.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56a3b378-1d90-494d-8558-13f67d73b01f")
+		)
+		(pin "2"
+			(uuid "5c5c974b-a40c-42d5-bd52-3ea492db0e18")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "747f56fb-3a42-44b5-9194-74875e6619f4")
+		(property "Reference" "R12"
+			(at 200.66 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 200.66 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 200.66 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b7ab9b7-cb6c-40fc-9fa3-78da760fad8b")
+		)
+		(pin "2"
+			(uuid "c7d5badb-4f11-4767-8a66-141460c844c9")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87c150f3-74db-43da-b3f8-a26142d0e64c")
+		(property "Reference" "R10"
+			(at 173.99 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "053282bc-64ac-4c84-94a9-4028a55230f4")
+		)
+		(pin "2"
+			(uuid "1b8af58e-1bc5-4866-8548-809a0be6e115")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.892 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92382c88-d5a2-40d8-993e-6686e69d22c0")
+		(property "Reference" "R21"
+			(at 204.892 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 204.892 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 204.892 192.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.892 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.892 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37f624f4-9de0-41f7-8329-102841571b4a")
+		)
+		(pin "2"
+			(uuid "b196eb5d-859c-4727-b98e-7d88ef22b370")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf9347a-05f7-48f5-94e2-1a4b8a33d9ab")
+		(property "Reference" "R22"
+			(at 173.99 200.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b048ef59-66bf-46dc-9c31-d188fdee3b01")
+		)
+		(pin "2"
+			(uuid "3967299a-49d4-448f-8944-3ad0ca7554d1")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba7921dd-9757-4c15-8d73-929357a8a8a9")
+		(property "Reference" "R1"
+			(at 173.99 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40a4fa6a-f3dd-469e-b5c9-c903f5b181e7")
+		)
+		(pin "2"
+			(uuid "c2a76988-52b6-40b4-8121-00859a28e0df")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc5cbb56-3ecd-4fd5-88b6-9d4ba967ab9f")
+		(property "Reference" "R13"
+			(at 173.99 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7592ddaa-991d-4585-ab18-d56080c2453a")
+		)
+		(pin "2"
+			(uuid "7765cbf8-6b1d-4078-8b43-a680ee1c5e36")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6594f6b-db62-43e2-8154-4ec79871dc8b")
+		(property "Reference" "R17"
+			(at 173.99 157.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e509f7-c094-418e-98b6-ed25367a6246")
+		)
+		(pin "2"
+			(uuid "9c37f7c1-167c-44f8-8067-8437f942157c")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db059bd5-41d6-4325-b186-5d32048cd4c0")
+		(property "Reference" "R7"
+			(at 173.99 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49cde617-96ee-4de0-bfdf-43f45fab77cb")
+		)
+		(pin "2"
+			(uuid "9c86f637-c422-4155-aa7c-1a92648b5f7b")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.892 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e43ae35c-69da-4ab2-b588-5c0ab4d8e6d5")
+		(property "Reference" "R3"
+			(at 204.892 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 204.892 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 204.892 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.892 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.892 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "653533aa-b28d-4311-b137-64ce184c9e74")
+		)
+		(pin "2"
+			(uuid "481197fc-7ab9-4549-a4fe-26a013597460")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e45c4dd3-fc72-4deb-bb9a-f06e9f177e4f")
+		(property "Reference" "R5"
+			(at 173.99 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 173.99 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 173.99 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4d9c109-0201-4ab4-a719-5a02e5247e23")
+		)
+		(pin "2"
+			(uuid "e8c4d807-dc31-41a6-9203-34ca43db6156")
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 187.96)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0406071d-dc70-4a47-87f0-66b90a1a681f")
+		(property "Sheetname" "buffer12"
+			(at 213.36 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 190.5 0)
+			(uuid "e0a5e8b6-6c19-4b01-a2a9-ab6ae0ee0e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 190.5 180)
+			(uuid "ef1e923a-2aaa-4cc8-9fff-49ea9eb6f895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 162.56)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07ff983f-04c3-46f2-a5df-71da6b1252f8")
+		(property "Sheetname" "AND6"
+			(at 222.25 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 222.25 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 222.25 168.91 180)
+			(uuid "4c472768-0dd7-4a24-a16c-61f518f20e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 222.25 163.83 180)
+			(uuid "83cf3e69-3bb9-464f-8de3-3e3ce5eaa95e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 234.95 166.37 0)
+			(uuid "82209e8c-0d5e-415a-a50b-a97b6ca440b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 182.88)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "087a2053-aa6a-4c9b-8f4e-65864f537813")
+		(property "Sheetname" "buffer14"
+			(at 213.36 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 185.42 0)
+			(uuid "141ae28a-4a3b-49c1-a18e-00464e601c2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 185.42 180)
+			(uuid "e274c27e-9d38-4b75-bdb1-e413988590d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 39.37)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f928a8d-7427-4ca1-aadc-7dc2b2044f31")
+		(property "Sheetname" "XOR1"
+			(at 179.07 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 179.07 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 45.72 180)
+			(uuid "63e81a29-c5ff-41b9-bd00-de53e6e861ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 40.64 180)
+			(uuid "540d654e-c5fc-4bdb-995c-3c4680b14f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 43.18 0)
+			(uuid "eab79320-a811-4ffb-a1b5-0378789aaf20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 86.36)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1416cca1-d40a-4a52-80aa-98db577d9c1f")
+		(property "Sheetname" "XOR3"
+			(at 179.07 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 179.07 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 92.71 180)
+			(uuid "a2bed735-7d25-49ec-9b9f-b8196b0751fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 87.63 180)
+			(uuid "5a496a69-c145-427a-bb71-6235078e97d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 90.17 0)
+			(uuid "772a568f-f562-4def-a0c0-b28da21f15bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 115.57)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e661011-18e0-4ec9-b9c9-b8c8d85e163e")
+		(property "Sheetname" "AND4"
+			(at 222.25 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 222.25 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 222.25 121.92 180)
+			(uuid "0a849235-1690-43b5-9bb1-979554994b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 222.25 116.84 180)
+			(uuid "538eb309-b8f7-4743-be48-da7311041381")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 234.95 119.38 0)
+			(uuid "8bde81ad-cfdd-4dfd-a19b-cf27acd91264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 151.13)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e84d179-6420-4052-a606-cca449cfe24a")
+		(property "Sheetname" "OR3"
+			(at 240.03 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OR_gate.kicad_sch"
+			(at 240.03 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 240.03 157.48 180)
+			(uuid "9064c7cc-a63d-4862-8ffa-4530418029c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 252.73 154.94 0)
+			(uuid "d3998cf3-28dc-4a2b-a8a5-910b74b8418e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In1" input
+			(at 240.03 152.4 180)
+			(uuid "dc7dfd8e-abf1-485d-9683-9185f71a8b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 119.38)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24e3beb9-786b-4d2c-9611-71c2f2578d58")
+		(property "Sheetname" "buffer5"
+			(at 207.01 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 121.92 0)
+			(uuid "c6397e29-9700-4815-8f4e-1dd638a5293e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 121.92 180)
+			(uuid "3f9306e9-98d1-4c17-aab3-96ca15af654d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 114.3)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3278dce6-e681-4c06-a569-f75fe275cfb8")
+		(property "Sheetname" "buffer7"
+			(at 207.01 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 116.84 0)
+			(uuid "f75f307d-51c4-439e-b3f3-dbaeb20cc5dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 116.84 180)
+			(uuid "be75debd-cb37-49ab-85fd-e43164dbf3c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 67.31)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34229814-452b-4dcf-b9a1-3d4579463210")
+		(property "Sheetname" "buffer3"
+			(at 207.01 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 69.85 0)
+			(uuid "1d9a9172-0d63-4f19-ab34-ed7e8f5cbb9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 69.85 180)
+			(uuid "61a1ba4a-e9cc-4e32-915c-e56eb53b7c23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 133.35)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38bb9aa6-8b39-4f54-aa4d-15bcb3cd3c9b")
+		(property "Sheetname" "XOR5"
+			(at 179.07 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 179.07 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 139.7 180)
+			(uuid "6969fc67-93e7-48c6-9528-040180608d4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 134.62 180)
+			(uuid "fe2df044-3fbf-40f5-9368-c4c34098dbc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 137.16 0)
+			(uuid "a75b84c0-87bb-4f44-84d8-c92a1544bf92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 196.85)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c3c409a-53e9-4513-9466-fedd8ecf475a")
+		(property "Sheetname" "AND7"
+			(at 179.07 196.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 179.07 205.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 203.2 180)
+			(uuid "7e6b5b09-825f-4a71-9116-ff4b1dd470db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 198.12 180)
+			(uuid "f1765a3e-0a78-42a4-8f5e-434fb82c4076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 200.66 0)
+			(uuid "c8d979c4-3f80-4901-8102-5d3786519516")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 181.61)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ebd2e27-1b7a-493a-92d5-84ccdbdce075")
+		(property "Sheetname" "XOR7"
+			(at 179.07 180.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 179.07 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 187.96 180)
+			(uuid "8411aed3-47e4-4f35-8ca0-c3a035833518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 182.88 180)
+			(uuid "039e2850-06f9-4e53-af0b-db7df2190bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 185.42 0)
+			(uuid "fa927579-1a3c-49f1-b3bf-51095c1fd125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 184.15)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45a1df8b-e9a5-4a8a-bef3-35f6bb583378")
+		(property "Sheetname" "XOR8"
+			(at 229.87 183.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 229.87 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 229.87 190.5 180)
+			(uuid "253e85ed-a31f-4770-a870-2a7609fe5d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 229.87 185.42 180)
+			(uuid "4e9356e0-df24-42eb-abcd-daa9c9a6aad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 242.57 189.23 0)
+			(uuid "b48a4a24-ad6c-4568-99f6-972048551468")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 41.91)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50749254-d71c-412b-877d-c9c92987dedc")
+		(property "Sheetname" "XOR2"
+			(at 229.87 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 229.87 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 229.87 48.26 180)
+			(uuid "6ae6e593-b601-4944-a454-5a9f26667aeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 229.87 43.18 180)
+			(uuid "df74e2b5-6bdc-482e-8ecd-f60106dcf279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 242.57 46.99 0)
+			(uuid "2e20ccab-63a6-4352-ac74-7ee977ab7cf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 54.61)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64f19a70-f8e1-496a-9e1b-f5f1a05ef4c4")
+		(property "Sheetname" "AND1"
+			(at 179.07 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 179.07 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 60.96 180)
+			(uuid "1152b4ff-13db-4bba-a6b5-248220b852fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 55.88 180)
+			(uuid "4d4fea98-3475-4626-804c-e02f4cab72df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 58.42 0)
+			(uuid "0d69f511-ff6f-4491-9353-c7fe2673e301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 104.14)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "871d3320-ad6c-4341-9e95-9656288dbdb1")
+		(property "Sheetname" "OR2"
+			(at 240.03 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OR_gate.kicad_sch"
+			(at 240.03 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 240.03 110.49 180)
+			(uuid "fa16dee3-1a78-4c07-a76f-a69e1ad7a883")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 252.73 107.95 0)
+			(uuid "2d7bcfc4-8ba3-4eb2-9789-5db07c847c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In1" input
+			(at 240.03 105.41 180)
+			(uuid "771820bf-c02f-4e10-9170-f4337a300ddf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 72.39)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8731bff0-5da7-4f83-bcc9-0c9b7e9002f5")
+		(property "Sheetname" "buffer1"
+			(at 207.01 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 74.93 0)
+			(uuid "da6c17d4-f7e8-4055-8024-fdd53a281351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 74.93 180)
+			(uuid "6505c7fd-7552-4084-8bd8-af0c8294c6c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 209.55)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e49559e-2efe-47b5-822d-94e9320634a4")
+		(property "Sheetname" "buffer15"
+			(at 207.01 208.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 215.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 212.09 0)
+			(uuid "aa9f7fe1-1c2e-4a11-a27b-edf04c3efcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 212.09 180)
+			(uuid "ca88a407-3400-4560-af89-0336c5dc9cf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 88.9)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fa93920-4d64-493f-a466-a8c47b360702")
+		(property "Sheetname" "XOR4"
+			(at 229.87 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 229.87 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 229.87 95.25 180)
+			(uuid "00d6684e-63ca-443d-a256-10730c2ac6dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 229.87 90.17 180)
+			(uuid "00972bc1-f85b-4254-8d04-5af11c2800a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 242.57 93.98 0)
+			(uuid "9b7291cc-e43c-4f64-bd89-3860367210ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 199.39)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93cd083e-c47d-474f-bd2b-ab54a907cc8c")
+		(property "Sheetname" "OR4"
+			(at 240.03 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OR_gate.kicad_sch"
+			(at 240.03 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 240.03 205.74 180)
+			(uuid "6fe76c9e-99a2-47c8-afe6-00db30293737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 252.73 203.2 0)
+			(uuid "e35e33e0-6ddb-4c25-b4df-0852b8845a71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In1" input
+			(at 240.03 200.66 180)
+			(uuid "7f09a218-5121-4620-86b8-14eaef8ae13a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 92.71)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95ed31bb-3e23-4ae1-8c83-e056ff43a4cd")
+		(property "Sheetname" "buffer4"
+			(at 213.36 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 95.25 0)
+			(uuid "337e45ab-35a4-4f1b-adbd-540d578cff75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 95.25 180)
+			(uuid "018163cb-5bb5-437b-bbfa-12b780fe5d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 101.6)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9bb4ac11-f37d-436d-a4d7-ed7eee5513d0")
+		(property "Sheetname" "AND3"
+			(at 179.07 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 179.07 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 107.95 180)
+			(uuid "393fd966-288b-48e7-b425-89d25666967e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 102.87 180)
+			(uuid "1ce946de-86c2-47f4-95cf-2edc94ca61fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 105.41 0)
+			(uuid "fdc8593c-1743-4575-80f5-6642e1f1b359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 210.82)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e615667-118f-4f8c-84b6-86b5b3ac74d5")
+		(property "Sheetname" "AND8"
+			(at 222.25 210.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 222.25 219.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 222.25 217.17 180)
+			(uuid "4b91acf1-bc54-4bb3-84fe-694d698a795f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 222.25 212.09 180)
+			(uuid "2662964d-47a4-436b-9f2f-6bc0e0d0eebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 234.95 214.63 0)
+			(uuid "8efece68-3251-48b4-b388-3bac87b5b870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 87.63)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a64e1cb2-2759-4124-8eaa-8ca430942191")
+		(property "Sheetname" "buffer6"
+			(at 213.36 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 90.17 0)
+			(uuid "b5320fbd-60c8-45be-949a-28d940533030")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 90.17 180)
+			(uuid "2d9b58fc-d0c6-424e-8687-2bf88d2794f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 40.64)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6844925-0515-4c20-9ece-33dc08a631b2")
+		(property "Sheetname" "buffer2"
+			(at 213.36 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 43.18 0)
+			(uuid "cc1a9268-8213-45f4-ada8-f40002090a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 43.18 180)
+			(uuid "aa369db4-9c0e-447b-bbbe-27d587e26c72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 134.62)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adfbe5cf-b063-4c2a-9bfb-0b3e67b705f1")
+		(property "Sheetname" "buffer10"
+			(at 213.36 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 137.16 0)
+			(uuid "cf3c4ce7-703c-48d5-becc-f257d711ce9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 137.16 180)
+			(uuid "e5aefdec-ec07-4762-94e0-efea9fb957f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 57.15)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcb61313-4573-44d4-81cc-3036e28fb0ca")
+		(property "Sheetname" "OR1"
+			(at 240.03 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OR_gate.kicad_sch"
+			(at 240.03 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 240.03 63.5 180)
+			(uuid "b72b5435-3207-43cc-982d-9d51bd4ede79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 252.73 60.96 0)
+			(uuid "b3c1a06a-336e-4241-949a-bba46319c87e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In1" input
+			(at 240.03 58.42 180)
+			(uuid "c5e82e24-3bac-4a3e-901a-5ee3b2c280ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 148.59)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bef18267-df0b-4002-8680-ceabb5fbe0cf")
+		(property "Sheetname" "AND5"
+			(at 179.07 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 179.07 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 179.07 154.94 180)
+			(uuid "aed82e11-9c72-41bd-aa90-9b2c60d06bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 179.07 149.86 180)
+			(uuid "df776665-1e45-48f2-973f-a0ddd2593126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 191.77 152.4 0)
+			(uuid "20c50db2-ec85-4b25-a28b-a4dfe3ffd97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 68.58)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0effb04-ca76-4324-bf5e-f4602df4c9a3")
+		(property "Sheetname" "AND2"
+			(at 222.25 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AND_gate.kicad_sch"
+			(at 222.25 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 222.25 74.93 180)
+			(uuid "1cf6879d-11c8-40f2-8aaf-e937f7831d64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 222.25 69.85 180)
+			(uuid "988e278a-876d-43a8-8c04-e381fdf6e78a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 234.95 72.39 0)
+			(uuid "eadb5700-c033-41af-a16d-b3e167d18f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c428b592-d45f-4417-92de-567a17be9869")
+		(property "Sheetname" "XOR6"
+			(at 229.87 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XOR_gate.kicad_sch"
+			(at 229.87 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In2" input
+			(at 229.87 142.24 180)
+			(uuid "9956efe8-f44c-450b-b85f-8704dd577598")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "In1" input
+			(at 229.87 137.16 180)
+			(uuid "45356df1-23b8-4e01-95f2-7150110141d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "O" input
+			(at 242.57 140.97 0)
+			(uuid "44a11033-5f0b-4a11-8b21-7a1da0662d9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 45.72)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbd8bb89-29f4-415a-acc2-96a940591dcd")
+		(property "Sheetname" "buffer"
+			(at 213.36 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 48.26 0)
+			(uuid "e4c71a0e-6685-48f5-bf5f-99071042edc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 48.26 180)
+			(uuid "444104bd-ebcb-477f-a0c5-54a3d8b2265b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 161.29)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc89818b-b9bf-40e2-a3d5-38d05f72c8f5")
+		(property "Sheetname" "buffer11"
+			(at 207.01 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 163.83 0)
+			(uuid "2dc6fbad-ab3b-4ab3-a1ae-762d674bbf73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 163.83 180)
+			(uuid "35409c60-8555-4de1-b8e8-d483fc4183a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 139.7)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddca6292-036b-4ebb-a7ee-e723f213c252")
+		(property "Sheetname" "buffer8"
+			(at 213.36 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 213.36 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 226.06 142.24 0)
+			(uuid "845e28dc-d4b9-4bc5-8514-67f7c4edcf5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 213.36 142.24 180)
+			(uuid "da86df37-46a9-4d15-a41c-523b24521645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 166.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e72c884d-a96c-4ef1-8190-38575f0d3167")
+		(property "Sheetname" "buffer9"
+			(at 207.01 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 168.91 0)
+			(uuid "be38fe62-1850-4248-adc2-627609fe6f9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 168.91 180)
+			(uuid "414cdb1c-b859-49f2-a7e2-cc4bed13b473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 214.63)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc3b399f-bc37-4cda-995c-0b0eec3c0211")
+		(property "Sheetname" "buffer13"
+			(at 207.01 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buffer.kicad_sch"
+			(at 207.01 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "O" input
+			(at 219.71 217.17 0)
+			(uuid "3237ba19-3535-47d9-9682-5cdf579b29a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "In" input
+			(at 207.01 217.17 180)
+			(uuid "b16a783b-9c1c-4d1c-95ac-ee40fe018f30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "4-bit ALU simulation"
+				(path "/706711a6-12b1-4c3c-a3d1-84ac8b2606be/1daa66f8-ab89-4949-923f-80cee1c9656f"
+					(page "5")
+				)
+			)
+		)
+	)
+)

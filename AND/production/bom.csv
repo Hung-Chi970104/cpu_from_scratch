@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,D_DO-35_SOD27_P7.62mm_Horizontal,1,D,
+"J1, J2",PinHeader_1x03_P2.54mm_Vertical,2,Conn_01x03,
+"Q1, Q2, Q3",TO-92_Inline,3,2N3904,
+"R1, R2, R3, R4",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4,4.7k,

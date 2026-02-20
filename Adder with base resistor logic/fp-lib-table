@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "assets")(type "KiCad")(uri "C:/PCB Design/CPU from scratch/assets.pretty")(options "")(descr ""))
+)

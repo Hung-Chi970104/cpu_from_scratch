@@ -1,0 +1,2637 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "32fa1df2-cfcd-46e7-997a-9bd0a28181a1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 160.02 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1091dde2-37c3-49ef-9fcf-3799eacfaaf0")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f24f6d-bb55-475e-b0f2-c9481d5f3c53")
+	)
+	(junction
+		(at 167.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792f8d21-f0d4-41f9-a333-6a104a061548")
+	)
+	(junction
+		(at 130.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801e4b67-0c60-4d54-b253-c9fde27e4fd7")
+	)
+	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e28b7f-2130-4ed8-b173-46287b68eba3")
+	)
+	(junction
+		(at 187.96 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c3bd4c4-7dbd-4479-8e13-287c7a0ccaa0")
+	)
+	(junction
+		(at 130.81 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b990a632-b787-40b1-aa13-229c0a13c302")
+	)
+	(wire
+		(pts
+			(xy 187.96 81.28) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d2acba-82b2-4b6a-a702-8c73b1026c32")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4e9644-5dfd-4a7c-874e-b3757e969f7e")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.27) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3d1a39-325c-44c0-9a30-62c8d531b13a")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a7f2ff-8919-4d98-8f00-35fe597bc111")
+	)
+	(wire
+		(pts
+			(xy 167.64 67.31) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b143b1-43c2-4765-aef9-0d422c4f9944")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cb7a81-1988-47d2-9137-c1922230a69c")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f134c1-7ba2-4ea4-b3e0-d1a212ced779")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaa9885-7def-4f2a-871b-b898ab0c2d9c")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5722871a-a0bb-4b43-926b-3653385f8e7f")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5738b3f1-03dd-46fe-9801-e67cd78c83fe")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dfeeb3-5c15-46c9-bd6e-17c53c2d692a")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1272ee-bbf3-4a50-b907-43bdfc4fc0d1")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656f521d-2605-4137-9f0b-2f2d3cf16b4c")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67522654-3c90-4d85-a3e1-672d9c83eb0d")
+	)
+	(wire
+		(pts
+			(xy 160.02 57.15) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4e44bc-b152-4c36-915a-c3a744f61d37")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 167.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71aa5b80-5b42-44a4-8596-e5a78a33713f")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e2c614-d938-43e5-a2ed-ba895de49338")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77139f46-b797-4652-ab1f-dea7f0952631")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7812146b-9740-43fc-9180-443e69aeac39")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848e86e7-1a82-4465-bea5-3947f1e19716")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ffbe60-69bf-4122-801a-58f7ae9ad9fa")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8ff1fd-9495-4ef0-98bf-aea1b60ab5de")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 179.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3f6f9d-8f21-49c3-b429-36f5adcdd22f")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea7aca6-272f-4a93-b71c-1627c783fb48")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9605f37b-49de-4e33-83c3-4778dc831faf")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982d2a66-5cfc-4f0a-8661-fa0e5dd65c86")
+	)
+	(wire
+		(pts
+			(xy 187.96 66.04) (xy 187.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985a5d49-673c-4f6e-afad-e8cc03e61971")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9beaf4-97d5-47cb-8f39-d34d332a3b0a")
+	)
+	(wire
+		(pts
+			(xy 198.12 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbb6b87-5ab4-4fe5-b275-d7333627990a")
+	)
+	(wire
+		(pts
+			(xy 187.96 52.07) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae70a780-69fe-4fc0-bada-477250c790c2")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b235cab3-1576-453f-98e0-9751e94685e7")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 147.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a56ca1-4502-4dcb-9605-55573eeb4b03")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab8534b-9746-4b84-823f-9979ff6ac260")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67c11fb-b743-403f-874a-edd02d82c51b")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d755db16-6a05-4446-8c00-4d6cdfa447d7")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 130.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d818663b-14b8-4d2e-bd17-27f76b99c744")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed17f61b-0598-445e-bd52-f4256849914c")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5ad478-810e-47e9-bdf0-debea3368d59")
+	)
+	(wire
+		(pts
+			(xy 171.45 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef31e454-327a-4b61-9214-221da0bb5a50")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbc50c4-648a-4c73-8d0d-128efa4ec5ad")
+	)
+	(hierarchical_label "O"
+		(shape input)
+		(at 198.12 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b40cfdb-5308-4560-895e-167a9f7c0853")
+	)
+	(hierarchical_label "In1"
+		(shape input)
+		(at 118.11 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7432583f-dde7-44f2-9c92-6a59cb9596f0")
+	)
+	(hierarchical_label "In2"
+		(shape input)
+		(at 138.43 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c5ef83d-01f3-42e1-8760-a4292df0cf95")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 144.78 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164886bd-459a-4d88-bc3b-31e21daa3b9e")
+		(property "Reference" "Q5"
+			(at 149.86 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 149.86 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 149.86 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\PCB Design\\CPU from scratch\\2N3904_model.lib"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "93578ccb-2fe6-49fe-a448-57b0dbc25bc0")
+		)
+		(pin "2"
+			(uuid "30c292f0-26e8-493a-ae19-e42b948e2eb2")
+		)
+		(pin "1"
+			(uuid "bf441e4e-ec45-40f2-b805-e030e0669655")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "254344dd-2670-4924-8632-09f411f2d2d7")
+		(property "Reference" "#PWR07"
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4a390b7-d76a-46d3-b731-756acb48f7e0")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6bd194-45fc-4a34-8397-7f103ae31761")
+		(property "Reference" "#PWR09"
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e11c50a1-cc9f-4210-b864-35640129aab9")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f40daa-ac9e-4265-932e-715358966e1f")
+		(property "Reference" "R9"
+			(at 138.43 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 138.43 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 138.43 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5714cd24-7c58-4332-91fe-177fb37e6394")
+		)
+		(pin "1"
+			(uuid "fbcca02e-52f1-429f-8573-b086c142854b")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd76a5a-43e6-40c3-afd6-e85ae4eea4b1")
+		(property "Reference" "R10"
+			(at 153.67 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 153.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 153.67 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9709da5-698e-4aa9-8317-3326df8baf0c")
+		)
+		(pin "1"
+			(uuid "0651213c-27ae-4f31-bfd4-eeb3e942d0c7")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f201a66-8938-4d42-9307-06a2b9e75a5f")
+		(property "Reference" "R7"
+			(at 190.5 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 190.5 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 186.182 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dae81bea-b37f-4042-a337-0dcddf3605dd")
+		)
+		(pin "1"
+			(uuid "3fcc3815-d716-4289-949c-7d3b69a9fb0a")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9605bc11-dbcd-4ed5-baf2-3219f868504d")
+		(property "Reference" "R8"
+			(at 170.18 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 165.862 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d965f00-7432-4085-a342-ba01a8376311")
+		)
+		(pin "1"
+			(uuid "869f187a-0127-4d3e-aa95-f322ff3fb385")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ed456a-e073-40c4-b9d5-2fe9e78b4fdd")
+		(property "Reference" "#PWR010"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be319653-69b8-448f-abb2-9d5262116b26")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34f6b70-a2ef-4c3a-8ec0-d4031ad0bbee")
+		(property "Reference" "Q3"
+			(at 133.35 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 133.35 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 133.35 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\PCB Design\\CPU from scratch\\2N3904_model.lib"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f789b6ab-15b6-4975-8d7b-3c876526cc31")
+		)
+		(pin "2"
+			(uuid "fb18ab27-4e17-41de-89d3-ecdd80b194af")
+		)
+		(pin "1"
+			(uuid "ac9c3fb4-2fa2-4cd1-884c-9d2f1998c847")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb422fb0-92e6-4349-8fb3-44384068a320")
+		(property "Reference" "R12"
+			(at 142.24 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 142.24 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 142.24 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "012d8390-449c-4ce6-a353-7d57c53e15a3")
+		)
+		(pin "1"
+			(uuid "44e36335-1a90-46c6-b1f2-7282c8e66ec3")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 185.42 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc96c5d4-6fbd-4c95-a44a-ee0a648960a0")
+		(property "Reference" "Q1"
+			(at 190.5 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 190.5 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\PCB Design\\CPU from scratch\\2N3904_model.lib"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a39fc2df-5089-4673-bc1b-2bc3dd8ac3de")
+		)
+		(pin "2"
+			(uuid "9346ffd0-ac89-4e33-b55f-9a708c01ca83")
+		)
+		(pin "1"
+			(uuid "532ae774-b436-4581-8c14-364b1d72ad08")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a87a46-89bd-454b-81b6-6af93c88a6de")
+		(property "Reference" "#PWR08"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2252849-cf84-4c28-a71f-1066a781aa31")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 144.78 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e478edd7-1a43-4acb-8a5a-bf0541b467c7")
+		(property "Reference" "Q2"
+			(at 149.86 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 149.86 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 149.86 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\PCB Design\\CPU from scratch\\2N3904_model.lib"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94c24978-9a58-48dc-84cd-80c59ef682c5")
+		)
+		(pin "2"
+			(uuid "36f44cae-6abd-4934-acce-29846130f6a7")
+		)
+		(pin "1"
+			(uuid "f64792b9-8e8b-4b48-ad11-244a1796121e")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66988bd-46dc-4ea9-b36b-fbaddcee1767")
+		(property "Reference" "R11"
+			(at 119.38 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 119.38 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 119.38 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c44a891-7696-4cf4-a8e6-1d8cae662ac5")
+		)
+		(pin "1"
+			(uuid "97c91c09-4ab5-4463-8d9c-c921b267ecdc")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 175.26 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66381d4-7724-4aa7-8bb9-b1c69fb0efbf")
+		(property "Reference" "D1"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad49c376-d01d-410f-881a-f14b31370d84")
+		)
+		(pin "2"
+			(uuid "e2967121-a64e-4a16-b2ed-0ca20fb997e8")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 128.27 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f955a8ac-c37b-49aa-ae8c-844ea265aa07")
+		(property "Reference" "Q4"
+			(at 132.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 131.572 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 133.35 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\PCB Design\\CPU from scratch\\2N3904_model.lib"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "915c1537-3ae6-45bd-b5a0-86b7f77a5bc3")
+		)
+		(pin "2"
+			(uuid "e977a644-cc07-47d5-88df-d789561cdb38")
+		)
+		(pin "1"
+			(uuid "59731943-0f6f-4a6b-9afc-9d3e42b210e6")
+		)
+		(instances
+			(project "CPU from scratch"
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/9bc37561-488c-4b97-9de3-755d99a32940"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/5f0eaffd-704b-48bd-9ab3-03250978e122/f8b57eff-bb8f-4862-b1ce-d7b0e569d173"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

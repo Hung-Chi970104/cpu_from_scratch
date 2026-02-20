@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2",D_DO-35_SOD27_P7.62mm_Horizontal,2,D,
+J1,"TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",1,Screw_Terminal_01x03,
+"Q1, Q2, Q3, Q4, Q5, Q6",TO-92_Inline,6,2N3904,
+"R1, R2, R3, R4, R5, R6",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,1k,
+"SW1, SW2",SW_PUSH_6mm_H4.3mm,2,SW_Push,
