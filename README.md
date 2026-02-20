@@ -14,6 +14,7 @@ The main goal of this is to build my first ever [1-bit adder](https://www.youtub
 ![AND](assets/and.png)
 ![OR](assets/or.png)
 ![XOR](assets/xor.png)
+![PCB](assets/pcb.png)
 
 ## Logic Gates
 ![NAND](assets/NAND.JPG)
