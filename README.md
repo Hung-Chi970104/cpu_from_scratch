@@ -2,7 +2,6 @@
 I have always been dreaming of building a CPU from scratch, which means only transistors, resistors, and capacitors are allowed!!!
 The main goal of this is to build my first ever [1-bit adder](https://www.youtube.com/watch?v=RsBQoqHN4rk) that features SUM and Carry
 
-![Adder](https://github.com/Hung-Chi970104/cpu_from_scratch/blob/main/assets/cpu.png)
 
 ## Components
 - 2N3904 transistors
