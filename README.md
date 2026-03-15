@@ -54,7 +54,7 @@ The circuit has been validated against the standard 1-bit full adder truth table
 
 ---
 
-## Technical Challenges & Engineering Resolutions
+## Technical Challenges
 
 To build this, I was forced to learn many things that I hadn't even seen before, such as truth table and logic gates. Truth table is the foundation of computing logic, while logic gates are the way to implement the the logic
 
