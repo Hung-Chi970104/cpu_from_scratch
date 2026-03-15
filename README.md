@@ -1,6 +1,8 @@
 ## Hardware Specifications & Bill of Materials (BOM)
 *** Sry this board is still in production but I'll reship it once it's delivered!!!
 
+This project is inspired by Hyperspace Pirate: https://youtu.be/X31B1pVow1o?si=pDOqtu37fK6EBQ2z
+
 <img width="1920" height="1080" alt="cpu" src="https://github.com/user-attachments/assets/85bccea8-594a-406f-a8d3-cba3b08d6690" />
 This DIY 4-but CPU uses BJT logic to build various logic gates, while using discrete NPN transistors as saturated switches
 
