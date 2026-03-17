@@ -16,7 +16,7 @@ This DIY 4-but CPU uses BJT logic to build various logic gates, while using disc
 
 ---
 
-## Schematic & Architectural Design
+## Schematic Design
 
 The architecture has both **SUM** and **CARRY (Cout)** logic using fundamental logic gates built from scratch
 <img width="997" height="965" alt="adder" src="https://github.com/user-attachments/assets/a00223e5-2a39-4aae-9def-56aeb554a02e" />
